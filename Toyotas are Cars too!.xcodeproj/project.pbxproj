@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8945A1BF2023069600D9B888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8945A1BE2023069600D9B888 /* main.m */; };
+		8945A1D1202308F300D9B888 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 8945A1D0202308F300D9B888 /* Car.m */; };
+		8945A1D42023113E00D9B888 /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = 8945A1D32023113E00D9B888 /* Toyota.m */; };
+		8945A1D9202315A300D9B888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8945A1D8202315A300D9B888 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		8945A1BB2023069600D9B888 /* Toyotas are Cars too! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Toyotas are Cars too!"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8945A1BE2023069600D9B888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8945A1CF202308F300D9B888 /* Car.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = Car.h; sourceTree = "<group>"; };
+		8945A1D0202308F300D9B888 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		8945A1D22023113E00D9B888 /* Toyota.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		8945A1D32023113E00D9B888 /* Toyota.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
+		8945A1D62023158300D9B888 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = DEVELOPER_DIR; };
+		8945A1D8202315A300D9B888 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8945A1D9202315A300D9B888 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +53,7 @@
 			children = (
 				8945A1BD2023069600D9B888 /* Toyotas are Cars too! */,
 				8945A1BC2023069600D9B888 /* Products */,
+				8945A1D52023158300D9B888 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +69,21 @@
 			isa = PBXGroup;
 			children = (
 				8945A1BE2023069600D9B888 /* main.m */,
+				8945A1CF202308F300D9B888 /* Car.h */,
+				8945A1D0202308F300D9B888 /* Car.m */,
+				8945A1D22023113E00D9B888 /* Toyota.h */,
+				8945A1D32023113E00D9B888 /* Toyota.m */,
 			);
 			path = "Toyotas are Cars too!";
+			sourceTree = "<group>";
+		};
+		8945A1D52023158300D9B888 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8945A1D8202315A300D9B888 /* Foundation.framework */,
+				8945A1D62023158300D9B888 /* InterfaceBuilderKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8945A1D42023113E00D9B888 /* Toyota.m in Sources */,
+				8945A1D1202308F300D9B888 /* Car.m in Sources */,
 				8945A1BF2023069600D9B888 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
